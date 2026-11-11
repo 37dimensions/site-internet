@@ -210,7 +210,7 @@ function initContactForm() {
     }
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/marin.depibrac@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/37dimensions.fab@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -243,7 +243,7 @@ function initContactForm() {
         const mailtoBody = encodeURIComponent(
           `Bonjour Marin,\n\nVoici ma demande pour l'association 37dimensions :\n\n- Nom : ${nomVal}\n- Prénom : ${prenomVal}\n- Email : ${emailVal}\n- Téléphone : ${telVal}\n- Profil : ${profilLabel}\n- Centres d'intérêt : ${interetsVal}\n\nMessage :\n${messageVal}\n`
         );
-        mailFallbackBtn.href = `mailto:marin.depibrac@gmail.com?subject=${mailtoSub}&body=${mailtoBody}`;
+        mailFallbackBtn.href = `mailto:37dimensions.fab@gmail.com?subject=${mailtoSub}&body=${mailtoBody}`;
       }
 
       if (successBox) {
